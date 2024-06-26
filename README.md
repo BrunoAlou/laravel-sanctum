@@ -35,10 +35,11 @@ O projeto segue os princípios SOLID e utiliza os seguintes componentes:
     ```bash
     composer install
 3. Configure o arquivo .env com as credenciais do banco de dados e outras configurações necessárias.
-4. Execute as migrações do banco de dados e inicie o servidor:
+4. Adicione um arquivo database.sqlite dentro da pasta database para utilizar o SQLite como banco de dados.
+5. Execute as migrações do banco de dados e inicie o servidor:
     ```bash
     php artisan migrate
     php artisan serve
-5. Acesse a aplicação através do navegador:
+6. Acesse a aplicação através do navegador:
 http://localhost:8000
 
